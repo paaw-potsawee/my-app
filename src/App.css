@@ -43,6 +43,7 @@ body{
     cursor: pointer;
     font-weight: 900;
     border-radius:0.8vh ;
+    margin-left:0.2vw;
 }
 .Add-task button:hover{
     background-color: rgb(122, 122, 122);

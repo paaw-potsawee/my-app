@@ -10,6 +10,7 @@
     height: auto;
     margin-top:5px;
     color:rgb(255,255,255);
+    text-overflow: ellipsis;
 }
 .btn{
     margin-left: auto;
@@ -35,6 +36,11 @@
 }
 .true{
     text-decoration: line-through;
+    text-overflow: ellipsis;
+    width:100%;
+}
+.false{
+    text-overflow: ellipsis;
 }
 .inputtext{
     border: none;
