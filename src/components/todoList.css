@@ -1,0 +1,58 @@
+.list{
+    display:flex;
+    flex-direction:row;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius:5px;
+    width:60vw;
+    min-width:300px;
+    max-width:960px;
+    padding:5px;
+    height: auto;
+    margin-top:5px;
+    color:rgb(255,255,255);
+}
+.btn{
+    margin-left: auto;
+    margin-right: 5px;
+    display:flex;
+    flex-direction: center;
+}
+.b{
+    background-color: rgb(150,150,150);
+    cursor:pointer;
+    height:100%;
+    padding: 0 2px ;
+    border: 1px rgb(255, 255, 255) inset;
+    border-radius:2px;
+    font-size:11px;
+}
+.det-btn{
+    color:red;
+    margin-left:1vw;
+}
+.edit-btn{
+    color:rgb(0, 101, 196);
+}
+.true{
+    text-decoration: line-through;
+}
+.inputtext{
+    border: none;
+    background-color:transparent;
+    color:#fff;
+    font-size:medium;
+    width:100%;
+}
+.inputtext:focus{
+    border: none;
+    background-color:transparent;
+    color:#fff;
+    font-size:medium;
+    outline:none;
+    color:rgb(84, 173, 255);
+}
+
+.submitchange{
+    color:rgb(0, 101, 196);
+    margin-right: 1vw;
+}
