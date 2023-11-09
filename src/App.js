@@ -16,6 +16,9 @@ function App() {
       return [];
     }
   });
+  useEffect(() => {
+    document.title = 'TOO-DOO';
+  }, []);
 
   useEffect(() => {
     localStorage.setItem('todoList', JSON.stringify(todoList))
